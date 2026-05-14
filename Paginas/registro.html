@@ -10,19 +10,19 @@
     <main>
         <section id="login">
             <form action="home.html" method="post">
-                <h1>CHAMBEO</h1>
+                <h1 class="h1">CHAMBEO</h1>
                 <p>Crea tu cuenta y comienza tu camino</p>
                 <p>¿Qué tipo de cuenta necesitas?</p>
                 <input type="radio" name="tipo" id="estudiante">Estudiante
                 <input type="radio" name="tipo" id="estudiante">Empleador
                 <br><br>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
                 <br><br>
-                <input type="email" name="correo" id="correo" placeholder="Correo electronico">
+                <input type="email" name="correo" id="correo" placeholder="Correo electronico" required>
                 <br><br>
-                <input type="password" name="clave" id="clave" maxlength="8" minlength="8" placeholder="Contraseña(minimo 8 caracteres)">
+                <input type="password" name="clave" id="clave" maxlength="8" minlength="8" placeholder="Contraseña(minimo 8 caracteres)" required>
                 <br><br>
-                <input type="password" name="clave2" id="clave2" maxlength="8" minlength="8" placeholder="Confirmar contraseña">
+                <input type="password" name="clave2" id="clave2" maxlength="8" minlength="8" placeholder="Confirmar contraseña" required>
                 <br><br>
                 <button type="submit">Crear cuenta</button>
                 <hr>

@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <main>
+        <section id="Puesto">
+            <section id="Informacion">
+                <p>Completa la información para encontrar el talento ideal para tu negocio</p>
+                <h2>¿Qué necesitas?</h2>
+                <p>Título del puesto</p>
+                <input type="text" name="puesto" id="puesto" placeholder="Mesero/a, Cajero/a, Repartidor/a..." required>
+                <p>Descripción del puesto</p>
+                <textarea name="descripción" id="descripción"
+                    placeholder="Describe las actividades, responsabilidades y lo que esperas" required></textarea>
+                <p>Ubicación</p>
+                <input type="text" name="direccion" id="direccion" placeholder="Sector o dirección extra" required>
+            </section>
+            <hr>
+            <section id="Tiempo">
+                <h2>Duración y Horario</h2>
+                <p>¿Qué días necesitas?</p>
+                <input type="checkbox" name="lunes" id="lunes">lunes
+                <input type="checkbox" name="martes" id="martes">martes
+                <input type="checkbox" name="miercoles" id="miercoles">miercoles
+                <input type="checkbox" name="jueves" id="jueves">jueves
+                <input type="checkbox" name="viernes" id="viernes">viernes
+                <input type="checkbox" name="sabado" id="sabado">sabado
+                <input type="checkbox" name="domingo" id="domingo">domingo
+                <p>Hora de inicio</p>
+                <input type="time" name="hora1" id="hora1" required>
+                <p>Hora de salida</p>
+                <input type="time" name="hora2" id="hora2" required>
+            </section>
+            <hr>
+            <section id="Pago">
+                <h2>Pago Propuesto</h2>
+                <p>Pago diario (USD)</p>
+                <input type="number" placeholder="$10">
+                <p>Pago promedio en Ecuador: $12 a $20 por día</p>
+            </section>
+            <button type="submit">Publicar Vacante</button>
+        </section>
+    </main>
 </body>
+
 </html>
