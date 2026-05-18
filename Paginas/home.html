@@ -3,46 +3,91 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Home - CHAMBEO</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <nav id="menu">
-        <h1>CHAMBEO</h1>
-        <a href="trabajos.html">Publicaciones</a>
-        <a href="index.html">Login</a>
-        <a href="perfil.html">Perfil</a>
-    </nav>
-    <main>
-        <section id="home">
-            <h2>Oportunidades para ti</h2>
-            <p>Trabajos disponibles para hoy</p>
-            <div class="oferta" style="background-color: rgb(62, 129, 189); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
-            <div class="oferta" style="background-color: rgb(33, 72, 105); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
-            <div class="oferta" style="background-color: rgb(132, 163, 190); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
+    <header>
+        <div>
+            <a class="dato" href="home.html">CHAMBEO</a>
+        </div>
+        <nav class="menú">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="trabajos.html">Publicar Vacante</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contenedor">
+        <section class="fondo" style="text-align: center;"><br><br>
+            <h1>Oportunidades para ti</h1>
+            <p>Encuentra trabajos flexibles cerca de ti</p>
             <br>
-            <div class="oferta" style="background-color: rgb(250, 187, 245); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
-            <div class="oferta" style="background-color: rgb(237, 131, 247); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
-            <div class="oferta" style="background-color: rgb(173, 67, 206); width: 33%; height: 400px; float: left;">
-                <h3>Mesero/a - Fin de Semana</h3>
-            </div>
+            <input type="search" placeholder=" Busca el trabajo..."> <button type="submit">Buscar</button>
+        </section>
+        <section id="lista-trabajos">
+            <h2>Oportunidades</h2>
+            <p>6 trabajos disponibles hoy</p>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Mesero.webp" alt="Mesero">
+                </a>
+                <h3>Mesero/a - Fin de semana</h3>
+                <p>Café Central</p>
+                <p>La Mariscal, Quito</p>
+                <p>Sáb - Dom</p>
+            </article>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Cajero.webp" alt="Cajero">
+                </a>
+                <h3>Cajero - Turno Tarde</h3>
+                <p>SuperMaz <br>
+                    Cumbayá, Quito <br>
+                    Lun - Vie</p>
+            </article>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Repartidor.webp" alt="Repartidor">
+                </a>
+                <h3>Repartidor/a en bicicleta</h3>
+                <p>DeliExpress <br>
+                    Centro Histórico, Quito <br>
+                    Lun - Mié</p>
+            </article>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Ayudante.webp" alt="Ayudante">
+                </a>
+                <h3>Ayudante de cocina</h3>
+                <p>Restaurante El Sabor</p>
+                <p>González Suárez, Quito</p>
+                <p>Mar - Jue</p>
+            </article>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Atención.webp" alt="Atención al cliente">
+                </a>
+                <h3>Atención al cliente</h3>
+                <p>TechStore</p>
+                <p>Quicentro Sur</p>
+                <p>Vie - Dom</p>
+            </article>
+            <article class="trabajo">
+                <a href="detalle.html">
+                    <img src="../img/Empacador.webp" alt="Empacador">
+                </a>
+                <h3>Empacador/a</h3>
+                <p>MegaKiosco</p>
+                <p>La Carolina, Quito</p>
+                <p>Lun - Vie</p>
+            </article>
         </section>
     </main>
-    <footer>
-        <br>
-        <p>Para mas informacion....</p>
-        <p>Para mas informacion....</p>
-        <p>Para mas informacion....</p>
+    <footer class="pie">
+        <p>Muchas gracias</p>
     </footer>
 </body>
 

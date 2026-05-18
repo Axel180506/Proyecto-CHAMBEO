@@ -3,35 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Registro - CHAMBEO</title>
+    <link rel="stylesheet" href="../css/style2.css  ">
 </head>
 
 <body>
-    <main>
-        <section id="login">
-            <form action="home.html" method="post">
-                <h1 class="h1">CHAMBEO</h1>
-                <p>Crea tu cuenta y comienza tu camino</p>
-                <p>¿Qué tipo de cuenta necesitas?</p>
-                <input type="radio" name="tipo" id="estudiante">Estudiante
-                <input type="radio" name="tipo" id="estudiante">Empleador
-                <br><br>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
-                <br><br>
-                <input type="email" name="correo" id="correo" placeholder="Correo electronico" required>
-                <br><br>
-                <input type="password" name="clave" id="clave" maxlength="8" minlength="8" placeholder="Contraseña(minimo 8 caracteres)" required>
-                <br><br>
-                <input type="password" name="clave2" id="clave2" maxlength="8" minlength="8" placeholder="Confirmar contraseña" required>
-                <br><br>
-                <button type="submit">Crear cuenta</button>
-                <hr>
-                <p>O registrate con</p>
-                <button type="submit"><a href="">Google</a></button>
-                <button type="submit"><a href="https://www.facebook.com/">Facebook</a></button>
-                <br>
-                <p>¿Ya tienes cuenta?<a href="index.html"> Inicia sesión</a></p>
-            </form>
+    <main id="contenedor">
+        <section class="fondo">
+            <section id="registro">
+                <form action="home.html" method="post">
+                    <br>
+                    <h2>CHAMBEO</h2>
+                    <br>
+                    <p>Crea tu cuenta y comienza tu camino</p>
+                    <br><br>
+                    <label for="nombre">Nombre Completo</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" required>
+                    <br><br>
+                    <label for="correo">Correo electrónico</label>
+                    <br>
+                    <input type="email" name="correo" id="correo" placeholder="Correo electronico" required>
+                    <br><br>
+                    <label for="clave">Contraseña</label>
+                    <br>
+                    <input type="password" name="clave" id="clave" maxlength="8" minlength="8"
+                        placeholder="Contraseña(minimo 8 caracteres)" required>
+                    <br><br>
+                    <label for="clave2">Verificar contraseña</label>
+                    <br>
+                    <input type="password" name="clave2" id="clave2" maxlength="8" minlength="8"
+                        placeholder="Confirmar contraseña" required>
+                    <br><br>
+                    <button type="submit" id="buton">Crear cuenta</button>
+                    <br><br>
+                    <p>O registrate con</p>
+                    <br>
+                    
+                    <button type="submit" class="boton"><a href="">Google</a></button>
+                    <button type="submit" class="boton"><a href="">Facebook</a></button>
+                    <br><br>
+                    <p>¿Ya tienes cuenta?<a href="index.html"> Inicia sesión</a></p>
+                </form>
+            </section>
         </section>
     </main>
 </body>

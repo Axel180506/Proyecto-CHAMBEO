@@ -3,13 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>TRABAJOS - CHAMBEO</title>
+    <link rel="stylesheet" href="../css/style3.css">
 </head>
 
 <body>
-    <main>
-        <section id="Puesto">
-            <section id="Informacion">
+    <header>
+        <div>
+            <a href="home.html">CHAMBEO</a>
+        </div>
+        <nav class="menú">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="trabajos.html">Publicar Vacante</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contenedor">
+        <hr>
+        <section id="puesto">
+            <section id="vacante">
+                <p>Publicar Vacante</p>
+            </section>
+            <section id="postulacion">
                 <p>Completa la información para encontrar el talento ideal para tu negocio</p>
                 <h2>¿Qué necesitas?</h2>
                 <p>Título del puesto</p>
@@ -21,7 +38,7 @@
                 <input type="text" name="direccion" id="direccion" placeholder="Sector o dirección extra" required>
             </section>
             <hr>
-            <section id="Tiempo">
+            <section id="tiempo">
                 <h2>Duración y Horario</h2>
                 <p>¿Qué días necesitas?</p>
                 <input type="checkbox" name="lunes" id="lunes">lunes
@@ -37,7 +54,7 @@
                 <input type="time" name="hora2" id="hora2" required>
             </section>
             <hr>
-            <section id="Pago">
+            <section id="pago">
                 <h2>Pago Propuesto</h2>
                 <p>Pago diario (USD)</p>
                 <input type="number" placeholder="$10">
@@ -46,6 +63,9 @@
             <button type="submit">Publicar Vacante</button>
         </section>
     </main>
+    <footer class="pie">
+        <p>muchas gracias</p>
+    </footer>
 </body>
 
 </html>
