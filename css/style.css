@@ -99,7 +99,7 @@ header h1 a {
 
 /**Pagina del perfil de chambeo**/
 #datos {
-    width: 400px;
+    width: 600px;
     margin: 30px 450px;
     background-color: white;
     border-radius: 20px;
@@ -138,6 +138,23 @@ header h1 a {
     font-size: 13px;
 }
 
+.tabla-resumen {
+    width: 80%;
+    margin: 20px;
+}
+
+.tabla-resumen th {
+    background-color: #1D0C6A;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.tabla-resumen td {
+    color: gray;
+    font-size: 13px;
+    border: none;
+}
 
 /**Pagina detalle de chambeo**/
 #fondo img {
