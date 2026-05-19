@@ -1,85 +1,232 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
 
-body{
+body {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
+    background-color: #f5f6fa;
 }
 
-header{
-    height: 5%;
+header {
+    height: 10%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0 32px;
     align-items: center;
+    background-color: #1D0C6A;
 }
 
-.menú ul{
+header > h1 > a {
+    font-size: 22px;
+    font-weight: 800;
+    color: #FEB121;
+    letter-spacing: 2px;
+}
+
+.menú ul {
     display: flex;
     align-items: center;
+    gap: 4px;
 }
 
-.menú li{
-    padding: 10px;
+.menú li {
+    padding: 0;
 }
 
-#contenedor{
+.menú li a {
+    padding: 8px 16px;
+    color: white;
+}
+
+/* HOME */
+.fondo {
     width: 100%;
-    height: 90%;
-}
-
-#lista-trabajos{
-    width: 100%;
-    height: 80%;
-}
-
-.trabajo{
-    width: 300px;
-    height: 250px;
-    border: 2px solid rgba(161, 161, 161, 0.398);
-    float: left;
-    margin: 30px 50px 10px 30px;
-    border-radius: 20px;
+    color: white;
+    padding: 40px 20px;
+    background-color: #2e188f;
     text-align: center;
 }
 
-img{
-    width: 300px;
-    height: 160px;
-    border-radius: 20px;
-}
-input{
-    width: 60%;
-    height: 25px;
-    border-radius: 20px;
-    border: 1px solid gray;
-}
-button{
-    width: 5%;
-    height: 25px;
-    border-radius: 20px;
-    background-color: rgb(254, 177, 33);
-    border: 1px solid gray;
+.fondo input {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
 }
 
-.fondo {
+.fondo button {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #FEB121;
+    border: none;
+    color: #1D0C6A;
+}
+
+#lista-trabajos {
+    padding: 30px;
+}
+
+#lista-trabajos h2 {
+    font-size: 20px;
+    color: #1D0C6A;
+}
+
+#lista-trabajos > p {
+    color: #888;
+    font-size: 15px;
+}
+
+.trabajo {
+    width: 260px;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    float: left;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.trabajo h3 {
+    color: #1D0C6A;
+    margin: 10px;
+}
+
+.trabajo p {
+    color: gray;    
+}
+
+.trabajo img {
+    width: 260px;
+    height: 150px;
+}
+
+/* PERFIL */
+#datos {
+    width: 680px;
+    margin: 30px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#info-usuario {
+    padding: 14px;
+}
+
+#nombre-usuario {
+    font-size: 20px;
+    color: #1D0C6A;
+}
+
+#historial {
+    padding: 24px 32px;
+}
+
+#datos h2 {
+    font-size: 16px;
+    color: #1D0C6A;
+}
+
+.postulacion {
+    background: #f5f6fa;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.postulacion h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1D0C6A;
+}
+
+.postulacion p {
+    font-size: 13px;
+    color: #888;
+}
+
+.postulacion a {
+    color: #1D0C6A;
+    background: rgba(29,12,106,0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.postulacion button {
+    height: 25%;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background-color: #FEB121;
+    border: none;   
+}
+
+.postulacion button a {
+    color: #1D0C6A;
+    background: none;
+}
+
+/* DETALLE */
+#fondo img {
     width: 100%;
-    color: rgba(255, 255, 255, 0.765);
-    height: 20%;
-    background: url(https://img.magnific.com/vector-gratis/fondo-azul-degradado_23-2149333533.jpg?semt=ai_hybrid&w=740&q=80);
-    background-size: cover;
+    height: 300px;
+}
+
+#detalles {
+    margin: 30px;
+    background: white;
+    border-radius: 20px;
+    padding: 36px 40px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#detalles h2 {
+    font-size: 22px;
+    color: #1D0C6A;
+}
+
+#detalles > p {
+    font-size: 14px;
+    color: gray;
+}
+
+#detalles h3 {
+    font-size: 15px;
+    color: #1D0C6A;
+    margin: 20px 5px;
+}
+
+#detalles ul li {
+    font-size: 14px;
+    color: #555;
+    padding: 5px;
+    position: relative;
+}
+
+#detalles iframe {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#postular {
+    display: block;
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #1D0C6A;
+    border: none;
+    color: white;
 }
 
 .pie {
     width: 100%;
-    height: 5%;
     color: white;
     text-align: center;
-    padding: 5px;
-    font-size: 20px;
+    padding: 18px;
     background-color: #1D0C6A;
 }
