@@ -8,7 +8,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #f5f6fa;
+    background-color: whitesmoke;
 }
 
 header {
@@ -20,21 +20,14 @@ header {
     background-color: #1D0C6A;
 }
 
-header > h1 > a {
+header h1 a {
     font-size: 22px;
-    font-weight: 800;
-    color: #FEB121;
-    letter-spacing: 2px;
+    color: orange;
 }
 
 .menú ul {
     display: flex;
     align-items: center;
-    gap: 4px;
-}
-
-.menú li {
-    padding: 0;
 }
 
 .menú li a {
@@ -42,48 +35,32 @@ header > h1 > a {
     color: white;
 }
 
-#contenedor {
-    padding: 16px 10px 30px;
-}
-
 #puesto {
-    width: 600px;
+    width: 500px;
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    margin: 20px auto;
+    margin: 20px 400px;
     overflow: hidden;
+    color: gray;
 }
 
 #vacante {
     width: 100%;
-    padding: 18px 28px;
-    font-size: 16px;
-    color: orange;
+    padding: 10px;
     background-color: #1D0C6A;
-}
-
-#cuerpo {
-    padding: 0 28px;
 }
 
 h2 {
     color: #1D0C6A;
     font-size: 16px;
-    font-weight: 800;
     margin: 10px;
 }
 
 p {
-    color: #666;
+    color: gray;
     font-size: 14px;
     margin: 10px;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
 }
 
 input {
@@ -93,7 +70,12 @@ input {
     border: 1px solid gray;
     padding: 10px;
     margin: 10px;
-    background: #f5f6fa;
+    background: whitesmoke;
+}
+
+#dias{
+    width: 13px;
+    height: 13px;
 }
 
 textarea {
@@ -103,12 +85,12 @@ textarea {
     border: 1px solid gray;
     padding: 10px;
     margin: 10px;
-    background: #f5f6fa;
+    background: whitesmoke ;
 }
 
-#puesto > button {
-    width: 500px;
-    height: 48px;
+#puesto button {
+    width: 80%;
+    height: 40px;
     border-radius: 10px;
     margin: 10px;
     background-color: #1D0C6A;
@@ -121,6 +103,5 @@ textarea {
     color: white;
     text-align: center;
     padding: 18px;
-    font-size: 13px;
     background-color: #1D0C6A;
 }

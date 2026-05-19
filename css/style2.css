@@ -34,18 +34,15 @@ h2 {
     font-size: 26px;
     font-weight: 800;
     color: #FEB121;
-    letter-spacing: 2px;
-    margin-bottom: 8px;
 }
 
 p {
-    font-size: 13px;
+    font-size: 12px;
     color: gray;
-    margin-bottom: 8px;
 }
 
 label {
-    color: #555;
+    color: gray;
 }
 
 input {
@@ -53,7 +50,6 @@ input {
     height: 40px;
     border-radius: 10px;
     border: 1px solid rgba(49, 49, 49, 0.2);
-    padding: 0 14px;
 }
 
 #buton {
@@ -63,9 +59,6 @@ input {
     background-color: #1D0C6A;
     border: none;
     color: white;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .boton {

@@ -8,7 +8,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #f5f6fa;
+    background-color: whitesmoke;
 }
 
 header {
@@ -20,21 +20,14 @@ header {
     background-color: #1D0C6A;
 }
 
-header > h1 > a {
+header h1 a {
     font-size: 22px;
-    font-weight: 800;
-    color: #FEB121;
-    letter-spacing: 2px;
+    color: orange;
 }
 
 .menú ul {
     display: flex;
     align-items: center;
-    gap: 4px;
-}
-
-.menú li {
-    padding: 0;
 }
 
 .menú li a {
@@ -42,7 +35,7 @@ header > h1 > a {
     color: white;
 }
 
-/* HOME */
+/**Pagina del home de chambeo**/
 .fondo {
     width: 100%;
     color: white;
@@ -60,35 +53,33 @@ header > h1 > a {
 
 .fondo button {
     height: 40px;
-    padding: 0 20px;
+    padding: 10px;
     border-radius: 10px;
-    background-color: #FEB121;
+    background-color: orange;
     border: none;
-    color: #1D0C6A;
 }
 
 #lista-trabajos {
     padding: 30px;
+    text-align: center;
 }
 
 #lista-trabajos h2 {
-    font-size: 20px;
     color: #1D0C6A;
 }
 
-#lista-trabajos > p {
-    color: #888;
-    font-size: 15px;
+#lista-trabajos p {
+    color: gray;
 }
 
 .trabajo {
     width: 260px;
-    background: white;
-    border: 1px solid rgba(0,0,0,0.1);
-    float: left;
-    margin: 20px;
+    background-color: white;
     border-radius: 15px;
+    border: 1px solid gray;
     text-align: center;
+    display: inline-block;
+    margin: 25px;
 }
 
 .trabajo h3 {
@@ -97,124 +88,90 @@ header > h1 > a {
 }
 
 .trabajo p {
-    color: gray;    
+    font-size: 12px;
 }
 
 .trabajo img {
     width: 260px;
     height: 150px;
+    border-radius: 15px;
 }
 
-/* PERFIL */
+/**Pagina del perfil de chambeo**/
 #datos {
-    width: 680px;
-    margin: 30px;
-    background: white;
+    width: 400px;
+    margin: 30px 450px;
+    background-color: white;
     border-radius: 20px;
-    border: 1px solid rgba(0,0,0,0.1);
 }
 
-#info-usuario {
-    padding: 14px;
+#datos-personales {
+    padding: 20px;
+    color: gray;
+    font-size: 12px;
 }
 
-#nombre-usuario {
+#datos-personales .nombre {
+    color: orange;
     font-size: 20px;
-    color: #1D0C6A;
-}
-
-#historial {
-    padding: 24px 32px;
 }
 
 #datos h2 {
     font-size: 16px;
     color: #1D0C6A;
+    margin: 10px;
 }
 
 .postulacion {
-    background: #f5f6fa;
+    width: 85%;
+    padding: 10px;
     border-radius: 12px;
-    padding: 16px;
-}
-
-.postulacion h4 {
-    font-size: 14px;
-    font-weight: 700;
-    color: #1D0C6A;
 }
 
 .postulacion p {
     font-size: 13px;
-    color: #888;
+    color: gray;
 }
 
 .postulacion a {
     color: #1D0C6A;
-    background: rgba(29,12,106,0.1);
-    padding: 4px 12px;
-    border-radius: 20px;
+    font-size: 13px;
 }
 
-.postulacion button {
-    height: 25%;
-    padding: 4px 14px;
-    border-radius: 20px;
-    background-color: #FEB121;
-    border: none;   
-}
 
-.postulacion button a {
-    color: #1D0C6A;
-    background: none;
-}
-
-/* DETALLE */
+/**Pagina detalle de chambeo**/
 #fondo img {
     width: 100%;
     height: 300px;
 }
 
 #detalles {
-    margin: 30px;
+    margin: 20px;
     background: white;
     border-radius: 20px;
-    padding: 36px 40px;
-    border: 1px solid rgba(0,0,0,0.1);
+    padding: 30px;
+    color: gray;
+    border: 1px solid gray;
 }
 
 #detalles h2 {
-    font-size: 22px;
+    font-size: 25px;
     color: #1D0C6A;
-}
-
-#detalles > p {
-    font-size: 14px;
-    color: gray;
 }
 
 #detalles h3 {
     font-size: 15px;
     color: #1D0C6A;
-    margin: 20px 5px;
 }
 
-#detalles ul li {
-    font-size: 14px;
-    color: #555;
-    padding: 5px;
-    position: relative;
-}
-
-#detalles iframe {
-    width: 100%;
-    height: 220px;
-    border-radius: 12px;
-    border: 1px solid rgba(0,0,0,0.1);
+iframe {
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 
 #postular {
-    display: block;
     width: 100%;
     height: 48px;
     border-radius: 10px;
