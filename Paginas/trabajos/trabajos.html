@@ -23,44 +23,47 @@
     </header>
     <main id="contenedor">
         <section id="puesto">
-            <section id="vacante">
-                <p>Publicar Vacante</p>
-            </section>
-            <section id="postulacion">
-                <p>Completa la información para encontrar el talento ideal para tu negocio</p>
-                <h2>¿Qué necesitas?</h2>
-                <p>Título del puesto</p>
-                <input type="text" name="titulo" id="titulo" placeholder="Mesero/a, Cajero/a, Repartidor/a..." required>
-                <p>Descripción del puesto</p>
-                <textarea name="descripción" id="descripción"
-                    placeholder="Describe las actividades, responsabilidades y lo que esperas" required></textarea>
-                <p>Ubicación</p>
-                <input type="text" name="direccion" id="direccion" placeholder="Sector o dirección exacta" required>
-            </section>
+            <form action="trabajos.html" method="get">
+                <section id="vacante">
+                    <p>Publicar Vacante</p>
+                </section>
+                <section id="postulacion">
+                    <p>Completa la información para encontrar el talento ideal para tu negocio</p>
+                    <h2>¿Qué necesitas?</h2>
+                    <p>Título del puesto</p>
+                    <input type="text" name="titulo" id="titulo" placeholder="Mesero/a, Cajero/a, Repartidor/a..."
+                        required>
+                    <p>Descripción del puesto</p>
+                    <textarea name="descripción" id="descripción"
+                        placeholder="Describe las actividades, responsabilidades y lo que esperas" required></textarea>
+                    <p>Ubicación</p>
+                    <input type="text" name="direccion" id="direccion" placeholder="Sector o dirección exacta" required>
+                </section>
 
-            <section id="tiempo">
-                <h2>Duración y Horario</h2>
-                <p>¿Qué días necesitas?</p>
-                <input type="checkbox" name="lunes" id="dias" value="lunes">Lunes
-                <input type="checkbox" name="martes" id="dias" value="martes">Martes
-                <input type="checkbox" name="miercoles" id="dias" value="miercoles">Miércoles
-                <input type="checkbox" name="jueves" id="dias" value="jueves">Jueves
-                <input type="checkbox" name="viernes" id="dias" value="viernes">Viernes
-                <br>
-                <input type="checkbox" name="sabado" id="dias" value="sabado">Sábado
-                <input type="checkbox" name="domingo" id="dias" value="domingo">Domingo
-                <p>Hora de inicio</p>
-                <input type="time" name="hora1" id="hora1" required>
-                <p>Hora de salida</p>
-                <input type="time" name="hora2" id="hora2" required>
-            </section>
-            <section id="pago">
-                <h2>Pago Propuesto</h2>
-                <p>Pago diario (USD)</p>
-                <input type="number" placeholder="$10">
-                <p>Pago promedio en Ecuador: $12 a $20 por día</p>
-            </section>
-            <button type="submit">Publicar Vacante</button>
+                <section id="tiempo">
+                    <h2>Duración y Horario</h2>
+                    <p>¿Qué días necesitas?</p>
+                    <input type="checkbox" name="lunes" id="dias" value="lunes">Lunes
+                    <input type="checkbox" name="martes" id="dias" value="martes">Martes
+                    <input type="checkbox" name="miercoles" id="dias" value="miercoles">Miércoles
+                    <input type="checkbox" name="jueves" id="dias" value="jueves">Jueves
+                    <input type="checkbox" name="viernes" id="dias" value="viernes">Viernes
+                    <br>
+                    <input type="checkbox" name="sabado" id="dias" value="sabado">Sábado
+                    <input type="checkbox" name="domingo" id="dias" value="domingo">Domingo
+                    <p>Hora de inicio</p>
+                    <input type="time" name="hora1" id="hora1" required>
+                    <p>Hora de salida</p>
+                    <input type="time" name="hora2" id="hora2" required>
+                </section>
+                <section id="pago">
+                    <h2>Pago Propuesto</h2>
+                    <p>Pago diario (USD)</p>
+                    <input type="number" placeholder="$10">
+                    <p>Pago promedio en Ecuador: $12 a $20 por día</p>
+                </section>
+                <button type="submit">Publicar Vacante</button>
+            </form>
         </section>
     </main>
     <footer class="pie">
