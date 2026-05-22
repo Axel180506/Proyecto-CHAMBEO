@@ -16,10 +16,10 @@
         </h1>
         <nav class="menú">
             <ul>
-                <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="../trabajos/trabajos.html"><i class="fas fa-bullhorn"></i> Publicar Vacante</a></li>
-                <li><a href="../perfil/perfil.html"><i class="fas fa-user"></i> Perfil</a></li>
-                <li><a href="../index.html"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
+                <li><a href="home.html"><i class="fas fa-home" title="Home"></i></a></li>
+                <li><a href="../trabajos/trabajos.html"><i class="fas fa-bullhorn" title="Publicar Vacante"></i></a></li>
+                <li><a href="../perfil/perfil.html"><i class="fas fa-user" title="Perfil"></i></a></li>
+                <li><a href="../index.html"><i class="fas fa-sign-out-alt" title="Cerrar Sesión"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,9 @@
             <h1><i></i> Oportunidades para ti</h1>
             <p>Encuentra trabajos flexibles cerca de ti</p>
             <br>
-            <input type="search" placeholder=" Busca el trabajo..."><button type="submit">Buscar</button>
+            <form action="../detalle/detalle.html" method="get">
+                <input type="search" placeholder=" Busca el trabajo..." name="buscar"><button type="submit">Buscar</button>
+            </form>
         </section>
         <section id="lista-trabajos">
             <h2>Oportunidades</h2><br>
@@ -36,7 +38,7 @@
             <br>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Mesero.webp" alt="Mesero">
+                    <img src="../../img/Mesero.webp" alt="Mesero" title="Mesero/a - Fin de semana">
                 </a>
                 <h3>Mesero/a - Fin de semana</h3>
                 <p>Café Central</p>
@@ -45,7 +47,7 @@
             </article>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Cajero.webp" alt="Cajero">
+                    <img src="../../img/Cajero.webp" alt="Cajero" title="Cajero - Turno Tarde">
                 </a>
                 <h3>Cajero - Turno Tarde</h3>
                 <p>SuperMaz <br>
@@ -54,7 +56,7 @@
             </article>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Repartidor.webp" alt="Repartidor">
+                    <img src="../../img/Repartidor.webp" alt="Repartidor" title="Repartidor/a en bicicleta">
                 </a>
                 <h3>Repartidor/a en bicicleta</h3>
                 <p>DeliExpress <br>
@@ -63,7 +65,7 @@
             </article>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Ayudante.webp" alt="Ayudante">
+                    <img src="../../img/Ayudante.webp" alt="Ayudante" title="Ayudante de cocina">
                 </a>
                 <h3>Ayudante de cocina</h3>
                 <p>Restaurante El Sabor</p>
@@ -72,7 +74,7 @@
             </article>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Atención.webp" alt="Atención al cliente">
+                    <img src="../../img/Atención.webp" alt="Atención al cliente" title="Atención al cliente">
                 </a>
                 <h3>Atención al cliente</h3>
                 <p>TechStore</p>
@@ -81,7 +83,7 @@
             </article>
             <article class="trabajo">
                 <a href="../detalle/detalle.html">
-                    <img src="../../img/Empacador.webp" alt="Empacador">
+                    <img src="../../img/Empacador.webp" alt="Empacador" title="Empacador/a">
                 </a>
                 <h3>Empacador/a</h3>
                 <p>MegaKiosco</p>
@@ -92,6 +94,25 @@
     </main>
     <footer class="pie">
         <p>CHAMBEO — 2026 </p>
+        <h3>Detalles</h3>
+            <br><br>
+            <details>
+                <summary><i class="fas fa-question-circle"></i> Propósito de CHAMBEO</summary>
+                <p>El propósito de CHAMBEO es facilitar la conexión entre empleadores y empleados, ofreciendo una
+                    plataforma sencilla y eficiente para encontrar oportunidades laborales adecuadas.</p>
+            </details>
+            <br>
+            <details>
+                <summary><i class="fas fa-question-circle"></i> ¿Por qué escoger a CHAMBEO?</summary>
+                <p>Porque nos dedicamos a ofrecer una plataforma eficiente y sencilla para conectar empleadores y empleados, garantizando una experiencia positiva para ambas partes.</p>
+            </details>
+            <br>
+            <details>
+                <summary><i class="fas fa-user"></i> Creador de CHAMBEO</summary>
+                <p>El creador es un estudiante de la Universidad de las Fuerzas Armadas ESPE, conocido como Axel Molina
+                    estudiante de Ingeniería en Sistemas.</p>
+            </details>
+            <br><br>
     </footer>
 </body>
 
