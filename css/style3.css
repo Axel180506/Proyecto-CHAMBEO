@@ -64,7 +64,7 @@ p {
 }
 
 input {
-    width: 80%;
+    width: 90%;
     height: 40px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -79,7 +79,7 @@ input {
 }
 
 textarea {
-    width: 80%;
+    width: 90%;
     height: 90px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -89,7 +89,7 @@ textarea {
 }
 
 #puesto button {
-    width: 80%;
+    width: 95%;
     height: 40px;
     border-radius: 10px;
     margin: 10px;
